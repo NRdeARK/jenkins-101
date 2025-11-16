@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-python' #from nataphandeark/python-inbound-agent
+            label 'docker-agent-python' //from nataphandeark/python-inbound-agent
             }
       }
     triggers {
